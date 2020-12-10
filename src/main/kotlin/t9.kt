@@ -19,7 +19,7 @@ fun main() {
         index += 1
     }
 
-    val desired = 50047984L
+    val desired = data[index]
     var startIndex = 0
     var length = 1
     var found = false
