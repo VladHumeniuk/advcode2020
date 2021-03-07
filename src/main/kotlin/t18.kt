@@ -25,7 +25,7 @@ fun main() {
     }
 
     for (expression in expressions) {
-        results.add(evaluateExpression(expression).toLong())
+        results.add(evaluateExpression(expression))
     }
 
     println("RESULT ${results.sum()}")
